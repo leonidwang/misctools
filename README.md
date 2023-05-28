@@ -15,3 +15,10 @@ Python script to ping all IPs in a range and report result(up/down) in a table.
 - Ping each IP 3 times.
 - 0 packet loss means it's up, otherwise it's down.
 - multiprocess is used to do it in parallel.
+
+## treemap.py
+Parses letters in a file and present the occurances in a treemap.
+- An interactive treemap will be rendered in web browser.
+- An image file will be saved locally too.
+
+The sample program parses itself.
