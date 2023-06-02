@@ -1,6 +1,7 @@
 # misctools
 Collection of random handy tools.
 
+# Python
 ## cmdline-selection.py
 This script uses the prompt_toolkit library to allow the user to interactively select strings from a list using a radio list or a checkbox list. 
 Functions:
@@ -22,3 +23,10 @@ Parses letters in a file and present the occurances in a treemap.
 - An image file will be saved locally too.
 
 The sample program parses itself.
+
+# Bash
+## namedpipe.sh
+Assume you have an interactive program `your_program` which accepts stdin and sends response to stdout.
+This simple script will setup a named pipe so that you can test it in batch.
+- The inputs will be read from $input_dir, assuming a .txt file.
+- Each output from the input will be write to $output_dir with _output append to the basename.
