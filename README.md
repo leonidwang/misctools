@@ -11,6 +11,11 @@ Functions:
 - select_from_checkboxlist(strings): 
     Prompts the user to select one or more strings from a list using a checkbox list. Returns a list of selected strings.
 
+## oomtest.py
+Try to allocate memory in 1GB chunks.
+Print out allocated memory size and see when allocation failed.
+It's helpful to test the actual memory limits for a systems, especially in cloud or docker.
+
 ## ping-network.py
 Python script to ping all IPs in a range and report result(up/down) in a table.
 - Ping each IP 3 times.
